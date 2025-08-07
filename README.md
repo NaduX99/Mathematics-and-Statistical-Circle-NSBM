@@ -1,5 +1,5 @@
 # Mathematics and Statistical Circle NSBM
 
-Official Website
-Mathematics and Statistical Circle
-NSBM Green University
+Official Website<br>
+Mathematics and Statistical Circle<br>
+NSBM Green University<br>
