@@ -29,8 +29,10 @@ header {
 header .logo {
     height: 60px;
     margin-right: 5px; /* reduce this value */
+    margin-right: 5px; /* reduce this value */
 }
 header .nsbmlogo {
+  margin-left: 5px; /* reduce this value */
   margin-left: 5px; /* reduce this value */
 }
 
@@ -246,4 +248,5 @@ footer {
         margin: 0 10px;
     }
 }
+
 
