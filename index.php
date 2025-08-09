@@ -79,12 +79,10 @@
           <p>NSBM GREEN UNIVERSITY</p>
       </div>
     </div>
-    <!-- Chatbot Placeholder -->
-    <div class="chatbot-placeholder">
-        <i class="fas fa-comment-dots"></i>
-    </div>
+    <!-- Chatbot Script -->
+    <script data-id="cme4c3bon0005le0ct1rwba33" src="https://tinychat.ai/tinychat.js" async defer></script>
+    <!-- // Preloader script -->
     <script>
-      // Preloader script
       window.addEventListener('load', () => {
         const preloader = document.getElementById('preloader');
         setTimeout(() => {
@@ -94,4 +92,6 @@
       });
     </script>
 </body>
+
 </html>
+
