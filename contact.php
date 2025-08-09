@@ -18,6 +18,9 @@
         <a href = "index.php" style = "text-decoration: none;">
             <img src = "Logo.png" alt = "Logo" class = "logo">
         </a>
+       <a href="https://www.nsbm.ac.lk/" style="text-decoration: none; margin-left: 15px;">
+                <img src="NSBM Logo.png" alt="Second Logo" class="logo second-logo">
+            </a>
         <nav>
             <a href = "index.php">Home</a>
             <a href = "events.php">Events</a>
@@ -94,4 +97,5 @@
 </body>
 
 </html>
+
 
