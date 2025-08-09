@@ -28,15 +28,7 @@ header {
 
 header .logo {
     height: 60px;
-    margin-right: 5px; /* reduce this value */
-    margin-right: 5px; /* reduce this value */
 }
-header .nsbmlogo {
-  margin-left: 5px; /* reduce this value */
-  margin-left: 5px; /* reduce this value */
-}
-
-
 header nav a {
     color: white;
     text-decoration: none;
@@ -248,5 +240,6 @@ footer {
         margin: 0 10px;
     }
 }
+
 
 
