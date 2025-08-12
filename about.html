@@ -35,7 +35,7 @@
         </div>
     </header>
 <!--Our mision and vision section start-->
-
+<div class="main">
 <section class="mission-vision-section">
   <div class="mv-col mv-logo-col">
     <img src="Logo.png" alt="Logo" class="mv-logo" />
@@ -62,7 +62,7 @@ members for academic and professional success.    </p>
 
 <section class="what-do-why-join">
     <div class="left-col">
-        <h1>What We Do</h1>
+       <h1 class="animated-heading">What We Do</h1>
     </div>
     <div class="cards-container">
         <div class="card">
@@ -84,7 +84,7 @@ members for academic and professional success.    </p>
     </div>
 
     <div class="left-col" style="margin-top:48px;">
-        <h1>Why Join Us?</h1>
+        <h1 class="animated-heading">Why Join Us?</h1>
     </div>
     <div class="cards-container">
         <div class="card">
@@ -106,7 +106,7 @@ members for academic and professional success.    </p>
     </div>
 </section>
 <!--what we do & why join with us section end-->
-  
+  </div>
 
 <!--Footer start-->
  <footer>
@@ -167,6 +167,76 @@ members for academic and professional success.    </p>
         }, 650); // You can adjust the delay
       });
     </script>
+    <script>
+const mvSection = document.querySelector('.mission-vision-section');
+
+// Mouse hover
+mvSection.addEventListener('mouseenter', () => {
+  mvSection.classList.add('glow');
+});
+mvSection.addEventListener('mouseleave', () => {
+  mvSection.classList.remove('glow');
+});
+
+// Touch devices
+mvSection.addEventListener('touchstart', () => {
+  mvSection.classList.add('glow');
+});
+mvSection.addEventListener('touchend', () => {
+  mvSection.classList.remove('glow');
+});
+</script>
+
+<script>
+// Scroll-in animation for cards
+function revealCardsOnScroll() {
+    const cards = document.querySelectorAll('.card');
+    const triggerBottom = window.innerHeight * 0.92;
+    cards.forEach(card => {
+        const cardTop = card.getBoundingClientRect().top;
+        if(cardTop < triggerBottom) {
+            card.classList.add('visible');
+        }
+    });
+}
+
+window.addEventListener('scroll', revealCardsOnScroll);
+window.addEventListener('DOMContentLoaded', () => {
+    revealCardsOnScroll();
+
+    // Glow effect for cards (hover and touch)
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('mouseenter', () => card.classList.add('glow'));
+        card.addEventListener('mouseleave', () => card.classList.remove('glow'));
+        card.addEventListener('touchstart', () => card.classList.add('glow'));
+        card.addEventListener('touchend', () => card.classList.remove('glow'));
+    });
+
+    // Glow effect for mission-vision-section
+    const mvSection = document.querySelector('.mission-vision-section');
+    if(mvSection) {
+        mvSection.addEventListener('mouseenter', () => mvSection.classList.add('glow'));
+        mvSection.addEventListener('mouseleave', () => mvSection.classList.remove('glow'));
+        mvSection.addEventListener('touchstart', () => mvSection.classList.add('glow'));
+        mvSection.addEventListener('touchend', () => mvSection.classList.remove('glow'));
+    }
+});
+</script>
+
+<script>
+function revealHeadingsOnScroll() {
+    document.querySelectorAll('.animated-heading').forEach(heading => {
+        const triggerBottom = window.innerHeight * 0.92;
+        const headingTop = heading.getBoundingClientRect().top;
+        if (headingTop < triggerBottom) {
+            heading.classList.add('visible');
+        }
+    });
+}
+window.addEventListener('scroll', revealHeadingsOnScroll);
+window.addEventListener('DOMContentLoaded', revealHeadingsOnScroll);
+</script>
+
 </body>
 
 </html>

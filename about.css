@@ -1,8 +1,14 @@
 /* Base Styles */
+body{
+     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.main{
 
-body {
     background-image: url('bg.jpg');
-    
     background-repeat: repeat-y;
     background-size: 100vw auto;
     background-position: center top;
@@ -21,7 +27,7 @@ body {
 
 /* Header Styles */
 header {
-    background: linear-gradient(to right, #060705 0%, #05471c 50%, #060705 100%);
+    background: linear-gradient(to right, #000000 , #207037 40%, #000000);
     color: white;
     padding: 20px 40px;
     opacity: 0.8;
@@ -76,8 +82,9 @@ header .social-icons a {
 
     display: flex;
     width: 90%;
+    height: 70vh;
     max-width: 1200px;
-    margin: 40px auto 0 auto;
+    margin: 100px auto 0 auto;
     background: #303234;
     border-radius: 50px;
     overflow: hidden;
@@ -143,22 +150,22 @@ header .social-icons a {
 .what-do-why-join {
     width: 90vw;
     max-width: px;
-    margin: 40px 0;
+    margin: 30px 0;
     display: flex;
     width: 550px;
     height: 1900px;
     flex-direction: column;
-    background: linear-gradient(to bottom, #303234, #000000);
+    
     position: relative;
 }
 
 .what-do-why-join h1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 48px;
-    font-weight: 500;
+    font-weight: 800;
     align-items: left;
     text-align: right;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     color: #ddd;
     margin-right: 50px;
 }
@@ -167,13 +174,13 @@ header .social-icons a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-    width: 90%;
+    width: 60%;
     max-width: 1200px;
     justify-items: center;
     align-items: center;
     padding: 0;
     box-sizing: border-box;
-    padding-left: 250px;
+    padding-left: 350px;
     padding-right: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -181,10 +188,10 @@ header .social-icons a {
 
 .card {
 
-    width: 500px;
-    height: 332px;
+    width: 425px;
+    height: 310px;
     border-radius: 70px;
-    background: linear-gradient(to bottom, #303234, #303234,#303234,#254701);
+    background: linear-gradient(to bottom, #303234, #303234,#0b0b0c,#207037);
     border: 1px solid white;
     padding: 20px;
     text-align: center;
@@ -192,23 +199,22 @@ header .social-icons a {
 }
 
 .card h2 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 700;
-    margin-top: 6px;
-    margin-bottom: 8px;
+    margin-top: 2px;
+    margin-bottom: 4px;
     color: #B1F16C;
     font-family: 'Helvetica', sans-serif;
 }
 
 .card p {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Helvetica', sans-serif;
     color: #ddd;
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Responsive styles */
 
 
 /* Footer Styles */
@@ -378,9 +384,11 @@ footer {
 /* Responsive Styles */
 @media (max-width: 992px) {
 
+
     .mission-vision-section {
         flex-direction: column;
         max-width: 98vw;
+        height: auto;
 
     }
 
@@ -438,13 +446,15 @@ footer {
     }
 
     .cards-container {
+       
         gap: 16px;
-        padding-left: 100px;
+        padding-left: 60px;
         grid-template-columns: 1fr;
     }
 
     .card {
-        width: 500px;
+        
+        width: 400px;
         height: 200px;
         padding: 14px 6px;
         border-radius: 18px;
@@ -492,4 +502,44 @@ footer {
         margin: 0 10px;
     }
 }
+/*additionaly added animations*/
+.mission-vision-section {
+    transition: box-shadow 0.3s, background 0.3s;
+}
 
+.mission-vision-section.glow {
+    box-shadow: 0 0 40px 10px #b1f16c, 0 4px 24px rgba(0,0,0,0.15);
+    background: #3a3e2f;
+}
+/* Animate cards from bottom to top */
+.card {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: 
+        opacity 0.6s cubic-bezier(.4,0,.2,1),
+        transform 0.6s cubic-bezier(.4,0,.2,1),
+        box-shadow 0.3s;
+}
+
+/* When card is visible */
+.card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Glow effect on hover/touch */
+.card.glow {
+    box-shadow: 0 0 40px 10px #b1f16c, 0 4px 24px rgba(0,0,0,0.15);
+    background: #3a3e2f;
+}
+
+.animated-heading {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: opacity 0.6s cubic-bezier(.4,0,.2,1), transform 0.6s cubic-bezier(.4,0,.2,1);
+}
+
+.animated-heading.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
