@@ -10,7 +10,7 @@ body {
   overflow-x: hidden;
 }
 
-.main-content
+.maincontent
 {
   background: linear-gradient(135deg, #000000, #1a1a1a, #000000);
 }
@@ -566,4 +566,5 @@ footer {
     z-index: 1000;
 
 }
+
 
