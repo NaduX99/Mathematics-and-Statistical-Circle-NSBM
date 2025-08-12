@@ -4,14 +4,16 @@
 
 
 body {
-  background: linear-gradient(135deg, #000000, #1a1a1a, #000000);
-  font-family: 'Inter', sans-serif;
+  ont-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-
+main-content
+{
+  background: linear-gradient(135deg, #000000, #1a1a1a, #000000);
+}
 .particles {
   position: fixed;
   top: 0;
@@ -562,4 +564,5 @@ footer {
     cursor: pointer;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     z-index: 1000;
+
 }
