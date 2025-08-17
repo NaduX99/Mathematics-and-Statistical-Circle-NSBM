@@ -1,0 +1,109 @@
+<html>
+<head> <?php include 'assets/php/head.php'; ?> </head>
+<body>
+    <!-- Header Section -->
+    <?php include 'assets/php/header.php'; ?>
+    <!-- Main Section -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="mission-vision-section hero-section">
+            <div class="mv-col mv-text-col">
+                <h1 class="hero-title">
+                    <span class="title-green">Mathematics & Statistics Circle</span>
+                    <span class="title-green">NSBM Green University</span>
+                </h1><br>
+                <p class="hero-subtitle">Driven by a passion for numbers and logic, NSBM Green University's Mathematics & Statistics Circle fosters a community of analytical thinkers. </p>
+                <p class="hero-description">Join us to enhance your problem-solving skills, explore fascinating mathematical concepts, and connect with like-minded individuals who share your curiosity. Whether you're into pure mathematics, data science, or statistical analysis, there's a place for you here. Be part of our journey and unlock the power of numbers!</p>
+            </div>
+            <div class="mv-col mv-logo-col"> <div style="background: radial-gradient(60% 60% at 50% 50%, rgba(202,255,199,0.4) 63%, rgba(202, 255, 199, 0) 82%);"> <img class="circle-symbols" alt="Mathematical symbols" src="assets/image/math man.png"> </div> </div>
+        </section>
+        <!-- Why We Love Math Section -->
+        <section class="why-math-section">
+            <div class="why-math-container">
+                <div class="title-image-row">
+                    <div class="why-math-image"><img class="why-math-img" src="assets/image/arc.png" alt="Mathematical illustration"></div>
+                    <h2 class="why-math-title">Why We Love Math?</h2>
+                </div>
+                <div class="quote-card"><blockquote class="quote-text">We love mathematics because it brings order to chaos. It's a universal language that helps us understand patterns, solve problems, and make sense of the world around us.<br><br>It helps us solve problems, understand the world, and build confidence. Math is everywhere from nature to technology and its beauty lies in its patterns, structure, and the satisfaction of finding clear, reliable answers.</blockquote></div>
+            </div>
+        </section>
+        <!-- Guiding Section -->
+        <section class="guiding-section">
+            <div class="guiding-container">
+                <div class="guiding-content">
+                    <h3 class="guiding-title">Guiding the Circle Since 2022</h3>
+                    <div class="guiding-text">
+                        <p>The Mathematics & Statistics Circle of NSBM was founded in 2022 under the guidance of <span class="bold">Ms. Hirushi Dilpriya</span>, who continues to inspire students with her passion for numbers and logical thinking.</p>
+                        <p>With a vision to cultivate analytical skills and a love for mathematics, she has played a pivotal role in shaping the club's journey, organizing engaging events, and fostering a thriving community of math enthusiasts.</p>
+                        <p>Under her leadership, the club has grown into a space where students can explore pure mathematics, data science, and statistics while collaborating on exciting projects and competitions.</p>
+                    </div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-bg"></div>
+                    <img class="profile-img" alt="Ms. Hirushi Dilpriya" src="assets/image/mic.png">
+                    <div class="profile-role">Master in Charge</div>
+                    <div class="profile-name">Ms. Hirushi Dilpriya</div>
+                </div>
+            </div>
+        </section> 
+        <!-- Our Impact Section -->
+        <section class="impact-section">
+            <h2 class="impact-title">Our Impact</h2>
+            <table class="impact-stats">
+                <tr>
+                    <td class="stat-item">
+                        <img class="stat-icon" alt="Impact icon" src="assets/image/college.svg">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Schools</div>
+                        <div class="stat-description">Engaging students from diverse backgrounds with inclusive programs</div>
+                    </td>
+                    <td class="stat-item">
+                        <img class="stat-icon" alt="Impact icon" src="assets/image/volunteer.svg">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Volunteers</div>
+                        <div class="stat-description">Emplowering change through knowledge-sharing and collaboration</div>
+                    </td>
+                    <td class="stat-item">
+                        <img class="stat-icon" alt="Impact icon" src="assets/image/calendar.svg">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Events</div>
+                        <div class="stat-description">Delivering workshops and competitions that leave a lasting impact</div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <!-- Future Plans Section -->
+        <section class="mission-vision-section hero-section future-section">
+            <div class="future-bg"></div>
+            <div class="future-overlay"></div>
+            <div class="future-content">
+                <h2 class="future-title">Our Future Plans</h2><br>
+                <div class="future-plans">
+                    <div class="plan-item">
+                        <img class="plan-icon" alt="Plan icon" src="assets/image/tick.svg">
+                        <div class="plan-text">Expand our membership to reach a wider audience</div>
+                    </div>
+                    <div class="plan-item">
+                        <img class="plan-icon" alt="Plan icon" src="assets/image/tick.svg">
+                        <div class="plan-text">Organize more workshops and seminars</div>
+                    </div>
+                    <div class="plan-item">
+                        <img class="plan-icon" alt="Plan icon" src="assets/image/tick.svg">
+                        <div class="plan-text">Develop a mentorship program for students</div>
+                    </div>
+                    <div class="plan-item">
+                        <img class="plan-icon" alt="Plan icon" src="assets/image/tick.svg">
+                        <div class="plan-text">Collaborate with other academic institutions</div>
+                    </div>
+                    <div class="plan-item">
+                        <img class="plan-icon" alt="Plan icon" src="assets/image/tick.svg">
+                        <div class="plan-text">More fun quizzes and fun activities for students</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <?php include 'assets/php/footer.php'; ?>
+</body>
+</html>
