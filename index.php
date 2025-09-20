@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head> <?php include 'assets/php/head.php'; ?> </head>
 <body>
@@ -39,8 +40,8 @@
                     </div>
                 </div>
                 <div class="profile-card">
-                    <div class="profile-bg"></div>
-                    <img class="profile-img" alt="Ms. Hirushi Dilpriya" src="assets/image/mic.png">
+                    <div class="master-incharge-wrapper"></div>
+                    <img class="master-incharge" alt="Ms. Hirushi Dilpriya" src="assets/image/mic.png">
                     <div class="profile-role">Master in Charge</div>
                     <div class="profile-name">Ms. Hirushi Dilpriya</div>
                 </div>
