@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php include 'assets/php/extract.php'; ?>
 <html>
 <head> <?php include 'assets/php/head.php'; ?> </head>
