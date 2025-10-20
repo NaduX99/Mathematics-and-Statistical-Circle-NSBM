@@ -1,4 +1,4 @@
 # Mathematics and Statistical Circle NSBM
 Official Website of Mathematics and Statistical Circle | NSBM Green University
 
-This the NSBM Server Version
+This the Dev Version
