@@ -1,4 +1,4 @@
 # Mathematics and Statistical Circle NSBM
 
-Official Website of Mathematics and Statistical Circle | NSBM Green University<br>
+Developement Repository of the Official Website of Mathematics and Statistical Circle | NSBM Green University<br>
 Website URL : https://mathscircle.nsbm.ac.lk/
