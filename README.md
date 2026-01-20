@@ -3,17 +3,48 @@
 Official Website of Mathematics and Statistical Circle | NSBM Green University<br>
 Website URL : https://mathscircle.nsbm.ac.lk/
 
-# Event Photos Upload & Contact Page Instructions
+# Event Assets Upload Instructions
 
-## Event Photos Upload
+This document explains how to prepare and submit event assets for website display.
 
-The latest two event photos are included in the attached ZIP file. To add them to the website:
+---
 
-1. Extract the ZIP file.
-2. Place the two folders and two images inside the `assets/images` directory **without changing the folder or image names**.  
-   - The system uses the **folder name as the event ID** and the **file name as the event name** in the database.
-3. After placing the files, the website will automatically display them correctly.
+## Steps to Prepare Event Assets
 
-> ⚠️ **Do not rename** any folders or images, as this may break the display mechanism.
+1. **Create a new folder containing the event images**  
+   - The folder name should be the **event ID** (as generated in the database).
+
+2. **Keep the group photo taken at the event outside the folder**  
+   - The image file name should match the **event name** (as added to the database).
+
+---
+
+## How the System Uses These Files
+
+- The **folder name** is used as the **event ID**.  
+- The **group photo file name** is used as the **event name**.  
+
+This mapping ensures the event is displayed correctly on the website.
+
+---
+
+## Important Notes
+
+- ⚠️ **Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
+
+---
+
+## Submission Instructions
+
+1. **Zip the folder and the group photo together**.  
+2. **Send the ZIP file via email** to the required personnel.  
+3. **In the email**:  
+   - Mention the steps personalized for the specific event.  
+   - Clearly include the **event ID** (folder name) and the **event name** (group photo file name).  
+   - Inform the required personnel to follow the same steps for processing.
+
+---
+
+This README ensures consistent preparation and submission of event assets for smooth display on the website.
 
 ---
