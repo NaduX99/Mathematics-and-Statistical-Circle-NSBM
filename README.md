@@ -33,8 +33,7 @@ This mapping ensures the event is displayed correctly on the website.
 1. **Zip the folder and the group photo together**.  
 2. **Send the ZIP file via email** to the required personnel.  
 3. **In the email**:  
-   - Mention the steps personalized for the specific event.  
-   - Clearly include the **event ID** (folder name) and the **event name** (group photo file name).  
-   - Inform the required personnel to follow the same steps for processing.
+   - Mention the steps personalized for the specific event using the **event ID** (folder name) and the **event name** (group photo file name).  
+   - Inform the required personnel to follow the steps for processing.
 
 ---
