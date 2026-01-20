@@ -30,10 +30,9 @@ This mapping ensures the event is displayed correctly on the website.
 
 ## Submission Instructions
 
-1. **Zip the folder and the group photo together**.  
-2. **Send the ZIP file via email** to the required personnel.  
-3. **In the email**
-   - Mention the steps personalized for the specific event using the **event ID** (folder name) and the **event name** (group photo file name).  
-   - Inform the required personnel to follow the steps for processing.
+1. **Zip the folder and the group photo together** and **Send the ZIP file via email** to the required personnel.  
+2. **In the email body, mention the steps personalized for the specific event using the event ID (folder name) and the event name (group photo file name) clearly**
+3. **Add a additional step to add the path of the image in the website after uploading to the sever in the image column in events table.**
+4. **Inform the required personnel to follow those steps.**
 
 ---
