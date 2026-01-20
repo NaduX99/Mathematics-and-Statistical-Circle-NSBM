@@ -26,13 +26,13 @@ This mapping ensures the event is displayed correctly on the website.
 
 ## Important Notes
 
-⚠️ **Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
+**Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
 
 ## Submission Instructions
 
 1. **Zip the folder and the group photo together**.  
 2. **Send the ZIP file via email** to the required personnel.  
-3. **In the email**:  
+3. **In the email**
    - Mention the steps personalized for the specific event using the **event ID** (folder name) and the **event name** (group photo file name).  
    - Inform the required personnel to follow the steps for processing.
 
