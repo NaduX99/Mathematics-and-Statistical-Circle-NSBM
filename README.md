@@ -26,7 +26,7 @@ This mapping ensures the event is displayed correctly on the website.
 
 ## Important Notes
 
-- ⚠️ **Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
+⚠️ **Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
 
 ## Submission Instructions
 
