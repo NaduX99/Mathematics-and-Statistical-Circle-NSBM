@@ -3,11 +3,11 @@
 Official Website of Mathematics and Statistical Circle | NSBM Green University<br>
 Website URL : https://mathscircle.nsbm.ac.lk/
 
+---
+
 # Event Assets Upload Instructions
 
 This document explains how to prepare and submit event assets for website display.
-
----
 
 ## Steps to Prepare Event Assets
 
@@ -17,8 +17,6 @@ This document explains how to prepare and submit event assets for website displa
 2. **Keep the group photo taken at the event outside the folder**  
    - The image file name should match the **event name** (as added to the database).
 
----
-
 ## How the System Uses These Files
 
 - The **folder name** is used as the **event ID**.  
@@ -26,13 +24,9 @@ This document explains how to prepare and submit event assets for website displa
 
 This mapping ensures the event is displayed correctly on the website.
 
----
-
 ## Important Notes
 
 - ⚠️ **Do not change the names of the folder or the image to anything other than the required names**, as this may affect the display mechanism.
-
----
 
 ## Submission Instructions
 
@@ -42,9 +36,5 @@ This mapping ensures the event is displayed correctly on the website.
    - Mention the steps personalized for the specific event.  
    - Clearly include the **event ID** (folder name) and the **event name** (group photo file name).  
    - Inform the required personnel to follow the same steps for processing.
-
----
-
-This README ensures consistent preparation and submission of event assets for smooth display on the website.
 
 ---
